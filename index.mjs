@@ -17,14 +17,14 @@ const server=app.listen(6425, () => {
 const transporter = nodemailer.createTransport({
   service: 'gmail',
     auth: {
-        user: 'sh.alyyew2019@gmail.com',
-        pass: 'weedavwuttyabvde'
+        user: 'anykhasapquestioncenter@gmail.com',
+        pass: 'aohiyzsxkdaexwdk'
     }
 });
 
 app.post('/send-mail', (req, res) => {
     let mailOptions = {
-        from: 'sh.alyyew2019@gmail.com',
+        from: 'anykhasapquestioncenter@gmail.com',
         to: 'info@anykhasap.com',
         subject: `Ulanyjy ${req.body.username}-dan täze hat geldi`,
         html: `
